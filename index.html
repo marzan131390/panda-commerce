@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>My First Texting Bootstrap E-commerce Website</title>
 </head>
 <body>
     <div class="container"> 
@@ -24,13 +25,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Baackpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Contact Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -46,7 +47,7 @@
                         <h1>Weirless Bluetooth HeadPhone</h1>
                         <p>Very high quality headphone. Water proof headphone can be used during swemming.</p>
                         <h1 class="price">$250</h1>
-                        <button class="buy-now-button">Buy Now</button>
+                        <button class="buy-now-button">Buy Now >></button>
                     </div>
                     <div class="col-md-5"> 
                         <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -59,7 +60,7 @@
                         <h1>Mega LED Tv For Entertaiment</h1>
                         <p>This tv is for those people who have eye problems and want to watch ... videos in hight quality mode</p>
                         <h1 class="price">$1200</h1>
-                        <button class="buy-now-button">Buy Now</button>
+                        <button class="buy-now-button">Buy Now >></button>
                     </div>
                     <div class="col-md-5"> 
                         <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -72,7 +73,7 @@
                             <h1>Electric Weirless Gamign Console</h1>
                             <p>Usually use for gaming controler. This can be used playing with computer. This controler is only for used for gaming purpose...</p>
                             <h1 class="price">$1500</h1>
-                            <button class="buy-now-button">Buy Now</button>
+                            <button class="buy-now-button">Buy Now >></button>
                         </div>
                         <div class="col-md-5"> 
                             <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -90,6 +91,133 @@
             </button>
           </div>
     </div>
+
+    <div class="container catagories">
+        <div class="row">
+            <div class="col-md-4"> 
+                <div class="cat1 d-flex justify-content-between align-items-center text-light"> 
+                    <h2>Watch</h2>
+                    <img src="images/categories/watch.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4"> 
+                <div class="cat2 d-flex justify-content-between align-items-center text-light"> 
+                    <h2>Bag</h2>
+                    <img src="images/categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4"> 
+                <div class="cat3 d-flex justify-content-between align-items-center text-light"> 
+                    <h2>Shoes</h2>
+                    <img src="images/categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container shoes" id="shoes"> 
+      <h3>Shoes</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply 350 </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, et beatae vel dolorem hic cum odio dolor maiores, deserunt amet porro possimus. Dicta quasi corporis minima amet, porro nulla voluptatibus.</p>
+            </div>
+            <h5 class="price">$120</h5>
+            <div class="button"> 
+              <button class="buy-now-button button">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike 320</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sit unde dolorem voluptatibus ipsam optio facil</p>
+            </div>
+            <h5 class="price">$320</h5>
+            <div class="button"> 
+              <button class="buy-now-button button">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red max</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore rem fugit velit, et placeat eum neque soluta dolorum molestias deserunt tempore officia? Tenetur nobis vero culpa. Autem natus id dolores.</p>
+            </div>
+            <h5 class="price">$220</h5>
+            <div class="button"> 
+              <button class="buy-now-button button">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack"> 
+      <h3>Backpack</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Backpack</h5>
+              <h5>$540</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex laudantium delectus ipsum ad laborum earum modi praesentium molestiae et, enim impedit rerum aliquid iure ea sunt corrupti inventore error molestias.</p>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-button">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">blue Backpack</h5>
+              <h5>$340</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, numquam. Molestias vel quas animi quisquam fugit natus nobis, dolorem sint quam consequuntur voluptatum nam expedita pariatur temporibus quis nostrum cum?</p>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-button">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Black backpack</h5>
+              <h5>$590</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-button">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container orange-bg d-flex justify-content-center align-items-center" id="contact"> 
+      <div> 
+        <h3>Alaways Stay With Us For Latest Collection</h3>
+        <h6>Get Updates on Sales Special Discounts</h6>
+        <input type="email" name="" id="" class="form-control" placeholder="Enter Your Email"><br>
+        <button class="buy-now-button submit-btn">Submit</button>
+      </div>
+    </div>
+
+    <footer> 
+      <p>All Copy Right &copy;2022 is Reserved from  Marzan</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
